@@ -1,0 +1,28 @@
+.chating_main_container{
+    color:white;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+
+    .chating_secondary_container{
+        
+        display: flex;
+        padding: 8px 10px;
+        flex-direction: row;
+
+        .chating_for_message{
+            font-size: 20px;
+            max-width: 80%;
+        }
+        .chating_for_time{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin-left: 30px;
+            span{
+                font-size: 10px;
+            }
+        }
+    }
+}
